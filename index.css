@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header*/
+.back-video{
+  position: relative;
+  height: 5rem;
+  width: 100%;
+ object-fit: cover;
+}
+
+.header-back{
+height:5rem;
+width: 100%;
+background-color:black;
+color:whitesmoke;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 25px;
+padding-right: 25px;
+box-sizing: border-box;
+position: absolute;
+mix-blend-mode: multiply;
+top: 0;
+}
+.header-search{
+height:20px;
+border:2px solid white;
+width:300px;
+padding: 10px;
+color:white;
+border-radius: 15px;
+}
+.search-inside{
+  background-color:black;
+ color: white;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+.search-inside::placeholder{
+  color: white;
+}
+.links{
+  text-decoration: none;
+  color:aqua;
+  outline: none;
+  cursor: pointer;
+}
+.header-left{
+  flex-direction: row;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/*banner*/
+
+
+.banner{
+  background-image: url(./media/backgroundimg.avif);
+  background-attachment: fixed;
+  background-size:cover;
+  height: 800px;
+  width:100%;
+  margin-top: -4px;
+}
+
+/*main*/
+
+.main{
+  background-color: white;
+  width: 100%;
+  height:100vh ;
+  padding-left: 20px;
+  padding-right: 60px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-left{
+background-color: whitesmoke;
+width: 22%;
+height: 70vh ;
+border-radius: 8px;
+}
+.left-inside{
+padding:20px;
+font-size: 15px;
+}
+
+.lists{
+color: #00b3ff;
+font-size: 20px;
+text-decoration: none;
+}
+.main-right{
+  width: 60%;
+  height: 70vh;
+  box-shadow:1px 1px 3px black ;
+  margin-left:10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 30px;
+}
+.frame{
+  width: 100%;
+  height: 100%;
+}
+
+/* footer*/
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color:white;
+  display: flex;
+  align-items: start;
+ justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.form{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}

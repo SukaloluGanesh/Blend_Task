@@ -1,0 +1,22 @@
+
+.registrationin{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap:15px;
+  width: 500px;
+}
+button{
+  background-color: green;
+  padding: 10px ;
+  border-radius: 10px;
+  border: none;
+ color: white;
+}
+input{
+  width: 400px;
+padding: 10px 15px;
+height:10px;
+border-radius: 10px;
+}

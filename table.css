@@ -1,0 +1,15 @@
+
+  .table2{
+    width:700px;
+    height:200px;
+  }
+  .table2{
+    border:2px solid;
+  }
+  th,td{
+    border: 2px solid;
+    padding: 10px;
+  }
+  .table-head{
+    background-color: whitesmoke;
+  }
